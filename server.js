@@ -10,7 +10,7 @@ const io = require('socket.io')(server, {
 })
 const dev = process.env.NODE_ENV !== 'production'
 
-let port = 80
+let port = 8080
 
 const Rock = 1;
 const Paper = 2;
